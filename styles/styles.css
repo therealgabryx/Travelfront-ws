@@ -179,6 +179,7 @@ nav ul {
 /* Benefits Section */
 #benefits {
     scroll-snap-stop: always;
+    min-height: 100vh;
 }
 
 .benefits-head {
@@ -226,14 +227,15 @@ nav ul {
 
 .card-icon {
     background-color: #27394e;
-    min-height: 10vh;
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
 .cards img {
-    max-width: 15%;
+    max-width: 40px;
+    max-height: 40px;
+    pointer-events: none;
     margin: 2rem;
 }
 
@@ -457,7 +459,7 @@ footer ul {
     }
 
     #logo {
-        padding-top: 1rem;
+        /* padding-top: 1rem; */
         padding-bottom: 2rem;
     } 
 
