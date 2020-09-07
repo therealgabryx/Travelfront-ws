@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "travelfront",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
